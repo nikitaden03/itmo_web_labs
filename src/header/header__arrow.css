@@ -1,0 +1,27 @@
+.header__arrow {
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px dotted #fff;
+    font-size: 2.133rem;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin: 0 auto;
+    margin-left: -21px;
+}
+
+.header__arrow:hover {
+    background: #fff;
+}
+
+.header__arrow i {
+    line-height: 43px;
+    font-size: 2.133rem;
+    color: #fff;
+}
+
+.header__arrow:hover i {
+    color: #000;
+}

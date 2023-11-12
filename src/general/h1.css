@@ -1,0 +1,8 @@
+h1 {
+    font: 6rem / 82px MuseoSans;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.43em;
+    text-shadow: 0px 0px 46px rgba(0, 0, 0, 0.31);
+}

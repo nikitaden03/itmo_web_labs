@@ -1,0 +1,18 @@
+.menu__item {
+    float: left;
+    font: 0.733rem / 34px MuseoSans;
+    font-weight: 900;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0 12px;
+}
+
+.menu__item:hover {
+    background: rgba(250, 250, 250, 0.14);
+    border-radius: 3px;
+}
+
+.menu__item a {
+    color: #fff;
+    text-decoration: none;
+}

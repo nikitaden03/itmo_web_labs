@@ -1,10 +1,96 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8" />
-  <title>HTML5</title>
- </head>
- <body>
-  <p>Hi, name is Nikita Denisov - ISU334791</p>
- </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+<!--    &lt;!&ndash; Bootstrap CSS (jsDelivr CDN) &ndash;&gt;-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Подключаем  FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Подключаем  CSS Файлы-->
+    <link rel="stylesheet" href="src/general/clearfix.css">
+    <link rel="stylesheet" href="src/general/basics.css">
+    <link rel="stylesheet" href="src/general/ul.css">
+    <link rel="stylesheet" href="src/general/p.css">
+    <link rel="stylesheet" href="src/general/h1.css">
+    <link rel="stylesheet" href="src/fonts.css">
+
+
+    <link rel="stylesheet" href="src/header/header.css">
+    <link rel="stylesheet" href="src/header/header_full-screen.css">
+    <link rel="stylesheet" href="src/header/header__toolbar.css">
+    <link rel="stylesheet" href="src/header/header__title_main.css">
+    <link rel="stylesheet" href="src/header/header__subtitle.css">
+    <link rel="stylesheet" href="src/header/header__subtitle_main.css">
+    <link rel="stylesheet" href="src/header/header__arrow.css">
+
+    <link rel="stylesheet" href="src/menu/menu.css">
+    <link rel="stylesheet" href="src/menu/menu__item.css">
+    <link rel="stylesheet" href="src/menu/menu__list.css">
+
+    <link rel="stylesheet" href="src/phone/phone.css">
+
+</head>
+<body>
+<header class="header header_full-screen">
+    <!-- Меню сверху -->
+    <div class="header__toolbar">
+        <div class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <!-- Лого-->
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
+                        <a href="index.html"><img src="img/logo.png" alt="Логотип"></a>
+                    </div>
+                    <!-- Меню -->
+                    <div class="col-lg-7 col-md-4 col-sm-4 col-xs-7">
+                        <menu class="menu">
+                            <ul class="menu__list clearfix">
+                                <li class="menu__item"><a href="index.html">Главная</a></li>
+                                <li class="menu__item"><a href="about-company.html">О компании</a></li>
+                                <li class="menu__item"><a href="#">ВНЖ и ПМЖ в Болгарии</a></li>
+                                <li class="menu__item"><a href="move.html">Недвижимость и переезд</a></li>
+                                <li class="menu__item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </menu>
+                    </div>
+                    <!-- Телефон -->
+                    <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs text-right">
+                        <div class="phone">
+                            <p class="phone__number">+7 (495) 12-321-345</p>
+                            <p class="phone__number">+7 (495) 12-321-345</p>
+                        </div>
+                    </div>
+                    <!-- Кнопка меню -->
+                    <div class="col-md-1 hidden-lg img-responsive col-xs-3 col-sm-1 pull-right text-center">
+                        <img src="img/gamburger.png" alt="Меню">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Заголовок -->
+    <section>
+        <div class="header__title header__title_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12  col-xs-12 text-center">
+                        <h1>Болгария</h1>
+                        <p class="header__subtitle header__subtitle_main">ждет вас</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="header__arrow">
+                <a></a><i class="fa fa-angle-down"></i></a>
+            </div>
+        </div>
+    </section>
+</header>
+</body>
 </html>
