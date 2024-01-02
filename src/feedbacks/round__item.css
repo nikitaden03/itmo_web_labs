@@ -1,0 +1,13 @@
+.round__item {
+    float: left;
+    width: 17px;
+    height: 17px;
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.round__item_active {
+    background: #23aae2;
+}

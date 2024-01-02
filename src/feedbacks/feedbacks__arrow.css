@@ -1,0 +1,9 @@
+.feedbacks__arrow {
+    font-size: 3rem;
+    color: #23aae2;
+    margin-top: 55px;
+}
+
+.feedbacks__arrow:hover {
+    color: #147097;
+}

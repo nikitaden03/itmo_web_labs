@@ -1,0 +1,11 @@
+.form__arrow_small {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    margin: 35px auto;
+    position: static;
+}
+
+.form__arrow_small i {
+    line-height: 30px;
+}

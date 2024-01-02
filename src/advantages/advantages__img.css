@@ -1,0 +1,15 @@
+.advantages__img {
+    height: 175px;
+}
+
+#advantages__img_one {
+    background: url(../../img/hand.png) no-repeat center center;
+}
+
+#advantages__img_two {
+    background: url(../../img/notepad.png) no-repeat center center;
+}
+
+#advantages__img_three {
+    background: url(../../img/conference.png) no-repeat center center;
+}

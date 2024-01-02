@@ -1,0 +1,7 @@
+.feedbacks__name {
+    float: left;
+    font-size: 1.07rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 31px;
+}

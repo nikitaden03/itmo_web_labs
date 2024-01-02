@@ -1,0 +1,8 @@
+.feedbacks__text {
+    float: left;
+    margin-top: 30px;
+    font-size: 0.93rem;
+    font-style: italic;
+    color: #363636;
+    margin-bottom: 50px;
+}

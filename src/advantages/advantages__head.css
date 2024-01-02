@@ -1,0 +1,18 @@
+.advantages__head {
+    font: 1.333rem / 17px MuseoSans ;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.advantages__head:after {
+    content: '';
+    display: block;
+    width: 37px;
+    height: 1px;
+    background: #c6c6c6;
+    position: absolute;
+    left: 50%;
+    top: 210px;
+    margin-left: -18px;
+}

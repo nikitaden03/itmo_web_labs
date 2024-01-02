@@ -1,0 +1,10 @@
+#move {
+    padding: 85px 0;
+    background: url(../../img/prop.png) left top / cover;
+}
+
+#move h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    letter-spacing: 0.1em;
+}

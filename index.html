@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--    &lt;!&ndash; Bootstrap CSS (jsDelivr CDN) &ndash;&gt;-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,22 +19,80 @@
     <link rel="stylesheet" href="src/general/ul.css">
     <link rel="stylesheet" href="src/general/p.css">
     <link rel="stylesheet" href="src/general/h1.css">
+    <link rel="stylesheet" href="src/general/h2.css">
+    <link rel="stylesheet" href="src/general/button.css">
+    <link rel="stylesheet" href="src/general/arrow.css">
+    <link rel="stylesheet" href="src/general/menu.css">
     <link rel="stylesheet" href="src/fonts.css">
 
 
     <link rel="stylesheet" href="src/header/header.css">
     <link rel="stylesheet" href="src/header/header_full-screen.css">
     <link rel="stylesheet" href="src/header/header__toolbar.css">
+    <link rel="stylesheet" href="src/header/header__title.css">
     <link rel="stylesheet" href="src/header/header__title_main.css">
     <link rel="stylesheet" href="src/header/header__subtitle.css">
     <link rel="stylesheet" href="src/header/header__subtitle_main.css">
     <link rel="stylesheet" href="src/header/header__arrow.css">
+    <link rel="stylesheet" href="src/header/header__gamb.css">
 
     <link rel="stylesheet" href="src/menu/menu.css">
     <link rel="stylesheet" href="src/menu/menu__item.css">
     <link rel="stylesheet" href="src/menu/menu__list.css">
 
+
     <link rel="stylesheet" href="src/phone/phone.css">
+
+
+    <link rel="stylesheet" href="src/advantages/advantages.css">
+    <link rel="stylesheet" href="src/advantages/advantages__head.css">
+    <link rel="stylesheet" href="src/advantages/advantages__img.css">
+    <link rel="stylesheet" href="src/advantages/advantages__item.css">
+    <link rel="stylesheet" href="src/advantages/advantages__text.css">
+
+
+    <link rel="stylesheet" href="src/move/move.css">
+    <link rel="stylesheet" href="src/move/move__answer.css">
+    <link rel="stylesheet" href="src/move/move__citation.css">
+    <link rel="stylesheet" href="src/move/move__head.css">
+    <link rel="stylesheet" href="src/move/move__round.css">
+    <link rel="stylesheet" href="src/move/move__text.css">
+    <link rel="stylesheet" href="src/move/move_cta.css">
+
+
+    <link rel="stylesheet" href="src/home/home.css">
+    <link rel="stylesheet" href="src/home/home__button.css">
+    <link rel="stylesheet" href="src/home/home__text.css">
+
+    <link rel="stylesheet" href="src/home/dream-head/dream-head.css">
+    <link rel="stylesheet" href="src/home/dream-head/dream-head__head.css">
+    <link rel="stylesheet" href="src/home/dream-head/dream-head__img.css">
+    <link rel="stylesheet" href="src/home/dream-head/dream-head__text.css">
+
+    <link rel="stylesheet" href="src/home/dream-footer/dream-footer.css">
+    <link rel="stylesheet" href="src/home/dream-footer/dream-footer__text.css">
+
+    <link rel="stylesheet" href="src/feedbacks/feedbacks.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__a.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__arrow.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__client.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__item.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__locations.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__name.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__text.css">
+    <link rel="stylesheet" href="src/feedbacks/round.css">
+    <link rel="stylesheet" href="src/feedbacks/round__item.css">
+
+
+    <link rel="stylesheet" href="src/form/form.css">
+    <link rel="stylesheet" href="src/form/form__arrow.css">
+    <link rel="stylesheet" href="src/form/form__button.css">
+    <link rel="stylesheet" href="src/form/form__consult.css">
+    <link rel="stylesheet" href="src/form/form__form.css">
+
+    <link rel="stylesheet" href="src/footer/footer.css">
+    <link rel="stylesheet" href="src/footer/footer__politics.css">
+    <link rel="stylesheet" href="src/footer/footer__rights.css">
 
 </head>
 <body>
@@ -66,8 +126,10 @@
                         </div>
                     </div>
                     <!-- Кнопка меню -->
-                    <div class="col-md-1 hidden-lg img-responsive col-xs-3 col-sm-1 pull-right text-center">
-                        <img src="img/gamburger.png" alt="Меню">
+                    <div class="header__gamb">
+                        <div class="col-md-1 hidden-lg img-responsive col-xs-3 col-sm-1 pull-right text-center">
+                            <img src="img/gamburger.png" alt="Меню">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,10 +149,228 @@
         </div>
         <div>
             <div class="header__arrow">
-                <a></a><i class="fa fa-angle-down"></i></a>
+                <a href="#form"><i class="fa fa-angle-down"></i></a>
             </div>
         </div>
     </section>
 </header>
+<main>
+    <!-- Наши преимущества   -->
+    <section id="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Наши преимущества</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4  text-center">
+                    <div class="advantages__item">
+                        <div class="advantages__img" id="advantages__img_one"></div>
+                        <p class="advantages__head">Надежность</p>
+                        <p class="advantages__text">Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов</p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-4  text-center">
+                    <div class="advantages__item">
+                        <div class="advantages__img" id="advantages__img_two"></div>
+                        <p class="advantages__head">Достоверность</p>
+                        <p class="advantages__text">Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов</p>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4  text-center">
+                    <div class="advantages__item">
+                        <div class="advantages__img" id="advantages__img_three"></div>
+                        <p class="advantages__head">Компетентность</p>
+                        <p class="advantages__text">Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда на ПМЖ в Болгарию</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  CTA секция  -->
+    <section id ="move">
+        <div class="container">
+            <div class="rov">
+                <div class="col-md-12 text-center">
+                    <h2>Переезд в Болгарию</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="move__citation">«Если Вам не нравится то место, где вы находитесь - <br>смените его, Вы же не дерево» <br><span>Джим Рон</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center">
+                    <div class="move__cta">
+                        <div class="move__round move__round_top"><a href="#form"><i class="fa fa-angle-down"></i></a></div>
+                        <div class="move__round move__round_bottom"><a href="#form"><i class="fa fa-angle-down"></i></a></div>
+                        <p class="move__head">Пришло время и перед Вами стоит вопрос</p>
+                        <p class="move__text">Как переехать в Болгарию на ВНЖ или ПМЖ?</p>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="move__answer">Мы знаем ответ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="move__answer-text">Подберем для Вас оптимальный вариант и предложим лучшие условия!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#form" class="move__button button">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  CTA секция - 2 про недвижимость  -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Недвижимость и транспортные услуги</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="dream-head">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p class="dream-head__head">Мечтаете о доме на Солнечном берегу?</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p class="dream-head__text home__text">Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае - подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и профессиональный сервис позволит провести сделку с удовольствием и получить нужный результат</p>
+                            </div>
+                        </div>
+                        <img src="img/dream__img_center.png" class="dream-head__img" id="dream__img_center" alt="">
+                        <img src="img/dream__img_left.png" class="dream-head__img" id="dream__img_left" alt="">
+                        <img src="img/dream__img_right.png" class="dream-head__img" id="dream__img_right" alt="">
+                        <div class="pa"></div>
+                        <div class="button-a"><a href="#form"><i class="fa fa-life-ring"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center">
+                    <div class="dream-footer">
+                        <p class="home__text dream-footer__text">Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте жительства мы поможем перевести Ваши вещи в сохранности</p>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#form" class="home__button button">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+    <!--  Отзывы  -->
+    <section id="feedbacks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Отзывы наших клиентов</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 col-sm-1 text-right hidden-xs">
+                    <div class="feedbacks__arrow feedbacks__arrow_l">
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                </div>
+                <div class="col-md-1 hidden-sm hidden-xs"></div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="feedbacks__item clearfix">
+                        <p class="feedbacks__name">Дмитрий апасов</p>
+                        <a href="#" class="feedbacks__a">vk.com/apasov</a>
+                        <p class="feedbacks__locations clearfix">Москва → София</p>
+                        <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                        <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-sm-1 text-right hidden-xs">
+                    <div class="feedbacks__arrow feedbacks__arrow_r">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="col-md-1 hidden-sm hidden-xs"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="round clearfix">
+                        <li class="round__item"></li>
+                        <li class="round__item round__item_active"></li>
+                        <li class="round__item"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2> Есть вопросы по переезду в болгарию?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="form__consult">Мы проконсультируем<br> Вас бесплатно!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="arrow form__arrow_small">
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-3 hidden-xs"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <form action="">
+                    <input type="text" class="form__input" required placeholder="Имя">
+                    <input type="mail" class="form__input" required placeholder="E-mail">
+                    <input type="tel" class="form__input" required placeholder="Телефон">
+                    <input type="submit" class="form__button" value="Заказать консультацию">
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-3 hidden-xs"></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-5">
+                <img src="img/logo.png" alt="" class="logo">
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-2"></div>
+            <div class="col-md-3 col-sm-4 text-left"><p class="footer__rights">2024 / Все права защищены</p></div>
+            <div class="col-md-3 col-sm-4 text-left hidden-xs"><p class="footer__politics"><a href="#">Политика конфиденциальности</a></p></div>
+            <div class="col-md-3 hidden-sm hidden-xs text-right">
+                <div class="phone phone_footer">
+                    <p class="phone__number">+7 (495) 12-321-345</p>
+                    <p class="phone__number">+7 (495) 12-321-345</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

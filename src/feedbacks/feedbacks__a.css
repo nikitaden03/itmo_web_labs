@@ -1,0 +1,8 @@
+.feedbacks__a {
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #23aae2;
+    float: left;
+}

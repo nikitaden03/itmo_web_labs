@@ -1,0 +1,46 @@
+.button {
+    padding: 20px 34px;
+    border: 1px solid #fff;
+    font: 1rem / 35px MuseoSans;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.button-a {
+    width: 61px;
+    height: 61px;
+    background: #23aae2;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    text-align: center;
+    border: 1px solid #23aae2;
+    z-index: 1;
+}
+
+.button-a:hover {
+    background: #fff;
+}
+
+.button-a a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 61px;
+}
+
+.button-a:hover a {
+    color: #23aae2;
+}

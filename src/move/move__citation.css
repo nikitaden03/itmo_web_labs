@@ -1,0 +1,17 @@
+.move__citation {
+    color: #fff;
+    font: 1.2rem / 26px MuseoSans;
+    font-weight: 100;
+    font-style: italic;
+    width: 465px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.move__citation span{
+    font: 0.933rem / 39px MuseoSans;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+#form {
+    padding: 85px 0;
+    background:  #11b2f5 url(../../img/consultation.png);
+}
+
+#form h2 {
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 32px;
+}

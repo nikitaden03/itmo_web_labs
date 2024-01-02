@@ -1,0 +1,9 @@
+.home__button {
+    border: 2px solid #23aae2;
+    color: #23aae2;
+}
+
+.home__button:hover {
+    background: #23aae2;
+    color: #fff;
+}

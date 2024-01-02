@@ -1,0 +1,14 @@
+.footer__politics {
+    font: 0.93rem / 77px MuseoSans;
+    text-decoration: none;
+}
+
+.footer__politics a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.footer__politics a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}

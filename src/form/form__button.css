@@ -1,0 +1,10 @@
+.form__button {
+    background: rgba(0,0,0,0);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.form__button:hover {
+    background: rgba(255,255,255,1);
+    color: #30c2ff;
+}

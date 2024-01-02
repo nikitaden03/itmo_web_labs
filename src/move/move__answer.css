@@ -1,0 +1,16 @@
+.move__answer {
+    font: 2.47rem / 17px MuseoSans;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.move__answer-text {
+    font: 1.2rem / 51px MuseoSans;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: #fff;
+    margin-bottom: 40px;
+}
