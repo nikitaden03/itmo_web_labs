@@ -4,4 +4,17 @@
     padding-top: 40px;
     margin-bottom: 60px;
     box-shadow: 0px 3px 1px 0px rgba(159, 160, 160, 0.18);
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+    .moving__wrapper {
+        padding: 40px 15px 20px 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .moving__wrapper {
+        padding: 40px 10px 20px 10px;
+    }
 }

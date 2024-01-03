@@ -1,0 +1,9 @@
+.moving__img_left {
+    float: right;
+}
+
+@media screen and (max-width: 767px) {
+    .moving__img_left {
+        float: none;
+    }
+}
