@@ -1,0 +1,14 @@
+.about__button {
+    width: 100%;
+    /* padding: 32px 0; */
+    text-align: center;
+    background: #23aae2;
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 76px;
+    line-height: 76px;
+    margin-bottom: 66px;
+}

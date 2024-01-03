@@ -4,6 +4,15 @@
     min-height: 500px;
 }
 
+.header_full-screen {
+    height: 100vh;
+}
+
+.header_move {
+    padding-bottom: 116px;
+    height: auto;
+}
+
 @media screen and (max-width: 767px) {
     header {
         padding-bottom: 30px;

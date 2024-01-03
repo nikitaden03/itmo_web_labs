@@ -1,0 +1,39 @@
+.partner {
+    width: 400px;
+    background: #f4f4f4;
+    height: 544px;
+    margin-bottom: 80px;
+    box-shadow: 1px 2px 4px 0px rgba(149, 149, 147, 0.33);
+}
+
+.partner_left {
+    float: left;
+    margin-left: 65px;
+}
+
+.partner_right {
+    float: right;
+    margin-right: 65px;
+}
+
+@media screen and (max-width: 1199px) {
+    .partner_left {
+        margin-left: 10px;
+    }
+
+    .partner {
+        height: 644px;
+        width: 45%;
+    }
+
+    .partner_right {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .partner {
+        width: 95%;
+        height: auto;
+    }
+}

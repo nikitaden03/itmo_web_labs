@@ -1,0 +1,17 @@
+.partner__name {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.partner__name:after {
+    content: '';
+    display: block;
+    width: 37px;
+    height: 1px;
+    background: #c6c6c6;
+    margin: 0 auto;
+    margin-top: 12px;
+}

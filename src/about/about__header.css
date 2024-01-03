@@ -1,0 +1,10 @@
+.about__header {
+    padding: 55px 80px 80px 80px;
+    background: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about__header span {
+    font-weight: 900;
+}

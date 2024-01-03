@@ -1,0 +1,28 @@
+.header__text {
+    font-size: 3.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-bottom: 110px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__text {
+        font-size: 2.5rem; word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__text {
+        letter-spacing: 0.2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__text {
+        font-size: 2.2rem;
+        line-height: 40px;
+        letter-spacing: 0.1rem;
+    }
+}
