@@ -3,6 +3,10 @@
     margin-bottom: 203px;
 }
 
+.header__toolbar_admin {
+    background: rgba(0,0,0,0.25);
+}
+
 .header__toolbar_move {
     background: rgba(0,0,0,0.25);
     margin-bottom: 70px;

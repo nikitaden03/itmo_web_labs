@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Админ панель</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=400, initial-scale=1.0">
+
+    <!--    &lt;!&ndash; Bootstrap CSS (jsDelivr CDN) &ndash;&gt;-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Подключаем  FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Подключаем  CSS Файлы-->
+    <link rel="stylesheet" href="src/general/clearfix.css">
+    <link rel="stylesheet" href="src/general/basics.css">
+    <link rel="stylesheet" href="src/general/ul.css">
+    <link rel="stylesheet" href="src/general/p.css">
+    <link rel="stylesheet" href="src/general/h1.css">
+    <link rel="stylesheet" href="src/general/h2.css">
+    <link rel="stylesheet" href="src/general/button.css">
+    <link rel="stylesheet" href="src/general/arrow.css">
+    <link rel="stylesheet" href="src/general/menu.css">
+    <link rel="stylesheet" href="src/fonts.css">
+    <link rel="stylesheet" href="src/general/logo.css">
+
+    <link rel="stylesheet" href="src/header/header.css">
+    <link rel="stylesheet" href="src/header/header__toolbar.css">
+    <link rel="stylesheet" href="src/header/header__title.css">
+    <link rel="stylesheet" href="src/header/header__subtitle.css">
+    <link rel="stylesheet" href="src/header/header__subtitle_main.css">
+    <link rel="stylesheet" href="src/header/header__arrow.css">
+    <link rel="stylesheet" href="src/header/header__gamb.css">
+
+    <link rel="stylesheet" href="src/menu/menu.css">
+    <link rel="stylesheet" href="src/menu/menu__item.css">
+    <link rel="stylesheet" href="src/menu/menu__list.css">
+
+
+    <link rel="stylesheet" href="src/phone/phone.css">
+
+</head>
+<body>
+<header class="header header_full-screen">
+    <!-- Меню сверху -->
+    <div class="header__toolbar_admin">
+        <div class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <!-- Лого-->
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
+                        <a href="index.html"><img src="img/logo.png" alt="Логотип"></a>
+                    </div>
+                    <!-- Меню -->
+                    <div class="col-lg-7 col-md-4 col-sm-4 col-xs-7">
+                        <menu class="menu">
+                            <ul class="menu__list clearfix">
+                                <li class="menu__item"><a href="index.html">Главная</a></li>
+                                <li class="menu__item"><a href="about.html">О компании</a></li>
+                                <li class="menu__item"><a href="move.html">Недвижимость и переезд</a></li>
+                                <li class="menu__item"><a href="admin.html">Админ панель</a></li>
+                            </ul>
+                        </menu>
+                    </div>
+                    <!-- Телефон -->
+                    <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs text-right">
+                        <div class="phone">
+                            <p class="phone__number">+7 (495) 12-321-345</p>
+                            <p class="phone__number">+7 (495) 12-321-345</p>
+                        </div>
+                    </div>
+                    <!-- Кнопка меню -->
+                    <div class="header__gamb">
+                        <div class="col-md-1 hidden-lg img-responsive col-xs-3 col-sm-1 pull-right text-center">
+                            <img src="img/gamburger.png" alt="Меню">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Заголовок -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 vertical-center">
+                <form class="login-form">
+                    <h2 class="text-center text-white">Авторизация</h2>
+                    <div class="form-group">
+                        <label for="username" class="text-white">Имя пользователя</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="text-white">Пароль</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Войти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>

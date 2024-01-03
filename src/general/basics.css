@@ -20,3 +20,14 @@ body {
 .w900 {
     font-weight: 900;
 }
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.text-white {
+    color: #ffffff;
+}
