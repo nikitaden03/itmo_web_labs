@@ -5,3 +5,10 @@
     text-transform: uppercase;
     margin-right: 31px;
 }
+
+@media screen and (max-width: 767px) {
+    .feedbacks__name {
+        float: none;
+        width: 100%;
+    }
+}

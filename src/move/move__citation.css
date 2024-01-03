@@ -15,3 +15,9 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 500px) {
+    .move__citation {
+        width: 100%;
+    }
+}

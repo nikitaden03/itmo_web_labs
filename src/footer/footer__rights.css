@@ -2,3 +2,9 @@
     font: 0.93rem / 77px MuseoSans;
     color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+    .footer__rights {
+        display: none;
+    }
+}

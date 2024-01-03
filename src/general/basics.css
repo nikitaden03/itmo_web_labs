@@ -1,5 +1,6 @@
 html {
     font-size: 15px;
+    overflow-x: hidden;
 }
 
 * {
@@ -14,7 +15,6 @@ html {
 body {
     font-family: MuseoSans;
     color: #000;
-    overflow-x: hidden;
 }
 
 .w900 {

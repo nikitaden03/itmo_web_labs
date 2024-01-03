@@ -5,3 +5,21 @@
     font-size: 1.133rem;
     color: #545454;
 }
+
+@media screen and (max-width: 1199px) {
+    .advantages__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .advantages__text {
+        width: 312px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .advantages__text {
+        width: 100%;
+    }
+}

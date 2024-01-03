@@ -25,3 +25,10 @@
 .arrow:hover i {
     color: #000;
 }
+
+@media screen and (max-width: 767px) {
+    .arrow_small i{
+        line-height: 30px;
+    }
+}
+

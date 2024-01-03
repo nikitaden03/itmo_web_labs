@@ -4,3 +4,9 @@
     text-transform: uppercase;
     float: right;
 }
+
+@media screen and (max-width: 767px) {
+    .feedbacks__locations {
+        float: none;
+    }
+}

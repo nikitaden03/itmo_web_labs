@@ -14,3 +14,15 @@
     color: #fff;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .move__answer-text {
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .move__answer{
+        line-height: 49px;
+    }
+}

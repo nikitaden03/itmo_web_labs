@@ -5,3 +5,18 @@
     margin-top: -69px;
     margin-left: -69px;
 }
+
+@media screen and (max-width: 991px) {
+    .feedbacks__client {
+        margin-left: -59px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedbacks__client {
+        left: 50%;
+        top: 0%;
+        margin-top: -69px;
+        margin-left: -69px;
+    }
+}
