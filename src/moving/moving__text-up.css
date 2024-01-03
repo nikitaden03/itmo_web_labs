@@ -1,0 +1,41 @@
+.moving__text-up_right {
+    float: right;
+    width: 390px;
+    margin-top: 44px;
+    margin-left: 13px;
+    font-size: 1.1rem;
+}
+
+.moving__text-up_left {
+    float: left;
+    width: 390px;
+    margin-top: 100px;
+    margin-right: 13px;
+    font-size: 1.1rem;
+}
+
+.moving__text {
+    font: 1.533rem / 35px MuseoSans;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1199px) {
+    .moving__text-up {
+        width: 308px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .moving__text-up {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .moving__text-up_left {
+        margin-top: 0;
+    }
+}
