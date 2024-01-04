@@ -5,6 +5,7 @@
     text-transform: uppercase;
     list-style: none;
     padding: 0 12px;
+    margin: 0 5px;
 }
 
 .menu__item:hover {
@@ -15,4 +16,53 @@
 .menu__item a {
     color: #fff;
     text-decoration: none;
+}
+
+.menu__item_active {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.menu__item_active a {
+    color: #175773;
+}
+
+.menu__item_active:hover {
+    background: #fff;
+    border-radius: 5px;
+}
+
+#menu_mobile {
+    /*display: none;*/
+    position: absolute;
+    width: 100%;
+    z-index: 25;
+    background: #30667c70;
+    transform: translateY(-200%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu__item_mobile {
+    width: 100%;
+
+}
+
+.menu__item_mobile a {
+    color: #fff
+}
+
+.menu__item_mobile:hover {
+    background-color: #30667c;
+}
+
+.active-menu {
+    display: block !important;
+    transform: translateY(0%)!important;
+}
+
+.menu__item_mobile_active {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 2px;
+    color: #fff;
 }
