@@ -1,4 +1,4 @@
-.round__item {
+.round li {
     float: left;
     width: 17px;
     height: 17px;
@@ -8,6 +8,10 @@
     margin-right: 10px;
 }
 
-.round__item_active {
+li.slick-active {
     background: #23aae2;
+}
+
+.round button {
+    display: none;
 }

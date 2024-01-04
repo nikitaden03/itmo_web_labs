@@ -96,6 +96,9 @@
     <link rel="stylesheet" href="src/footer/footer__politics.css">
     <link rel="stylesheet" href="src/footer/footer__rights.css">
 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 </head>
 <body>
 <header class="header header_full-screen">
@@ -287,38 +290,31 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1 col-sm-1 text-right hidden-xs">
-                    <div class="feedbacks__arrow feedbacks__arrow_l">
-                        <i class="fa fa-angle-left"></i>
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="slider">
+                        <div class="feedbacks__item clearfix">
+                            <p class="feedbacks__name">Дмитрий апасов</p>
+                            <a href="#" class="feedbacks__a">vk.com/apasov</a>
+                            <p class="feedbacks__locations clearfix">Москва → София</p>
+                            <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                            <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
+                        </div>
+                        <div class="feedbacks__item clearfix">
+                            <p class="feedbacks__name">Дмитрий апасов 2</p>
+                            <a href="#" class="feedbacks__a">vk.com/apasov</a>
+                            <p class="feedbacks__locations clearfix">Москва → София</p>
+                            <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                            <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
+                        </div>
+                        <div class="feedbacks__item clearfix">
+                            <p class="feedbacks__name">Дмитрий апасов 3</p>
+                            <a href="#" class="feedbacks__a">vk.com/apasov</a>
+                            <p class="feedbacks__locations clearfix">Москва → София</p>
+                            <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                            <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-1 hidden-sm hidden-xs"></div>
-                <div class="col-md-8 col-sm-10">
-                    <div class="feedbacks__item clearfix">
-                        <p class="feedbacks__name">Дмитрий апасов</p>
-                        <a href="#" class="feedbacks__a">vk.com/apasov</a>
-                        <p class="feedbacks__locations clearfix">Москва → София</p>
-                        <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
-                        <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
-                    </div>
-                </div>
-
-                <div class="col-md-1 col-sm-1 text-right hidden-xs">
-                    <div class="feedbacks__arrow feedbacks__arrow_r">
-                        <i class="fa fa-angle-right"></i>
-                    </div>
-                </div>
-                <div class="col-md-1 hidden-sm hidden-xs"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <ul class="round clearfix">
-                        <li class="round__item"></li>
-                        <li class="round__item round__item_active"></li>
-                        <li class="round__item"></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
     <section id="form">
@@ -373,5 +369,13 @@
         </div>
     </div>
 </footer>
+
+<!-- Зависимости -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Слайдер -->
+<script src="src/feedbacks/slider.js"></script>
+
 </body>
 </html>

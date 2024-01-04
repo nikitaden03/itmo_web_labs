@@ -2,19 +2,37 @@
     font-size: 3rem;
     color: #23aae2;
     margin-top: 55px;
+    position: absolute;
+    top: 0;
+    margin-left: -32px;
 }
 
 .feedbacks__arrow:hover {
     color: #147097;
 }
 
+.feedbacks__arrow_r {
+    right: 0%;
+    margin-right: -32px;
+}
+
 @media screen and (max-width: 991px) {
     .feedbacks__arrow {
         position: absolute;
-        left: -12px;
+        margin-left: -42px;
     }
 
     .feedbacks__arrow_r {
-        right: -2px;
+        right: -12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedbacks__arrow {
+        display: none !important;
+    }
+
+    .feedbacks__arrow_r {
+        display: none !important;
     }
 }
