@@ -91,6 +91,7 @@
     <link rel="stylesheet" href="src/form/form__button.css">
     <link rel="stylesheet" href="src/form/form__consult.css">
     <link rel="stylesheet" href="src/form/form__form.css">
+    <link rel="stylesheet" href="src/form/form__popup.css">
 
     <link rel="stylesheet" href="src/footer/footer.css">
     <link rel="stylesheet" href="src/footer/footer__politics.css">
@@ -274,7 +275,7 @@
                         <img src="img/dream__img_left.png" class="dream-head__img" id="dream__img_left" alt="">
                         <img src="img/dream__img_right.png" class="dream-head__img" id="dream__img_right" alt="">
                         <div class="pa"></div>
-                        <div class="button-a"><a href="#form"><i class="fa fa-life-ring"></i></a></div>
+                        <div class="button-a"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-life-ring"></i></a></div>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -329,6 +330,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
     <section id="form">
@@ -353,14 +355,21 @@
             <div class="row">
                 <div class="col-md-4 col-sm-3 hidden-xs"></div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <form action="">
-                        <input type="text" class="form__input" required placeholder="Имя">
-                        <input type="mail" class="form__input" required placeholder="E-mail">
-                        <input type="tel" class="form__input" required placeholder="Телефон">
+                    <form id="contact-form">
+                        <input type="text" class="form__input" required placeholder="Имя" id="name">
+                        <input type="email" class="form__input" required placeholder="E-mail" id="email">
+                        <input type="tel" class="form__input" required placeholder="Телефон" id="phone">
                         <input type="submit" class="form__button" value="Заказать консультацию">
                     </form>
                 </div>
                 <div class="col-md-4 col-sm-3 hidden-xs"></div>
+            </div>
+            <div id="form__popup-overlay"></div>
+            <div id="form__popup">
+                <button id="form__popup-close">X</button>
+                <p>Спасибо за проявленное внимание, <span id="form__popup-name"></span>.</p>
+                <p>Наш менеджер позвонит вам по номеру телефона: <span id="form__popup-phone"></span> в течение часа.</p>
+                <p>Также мы выслали купон на наши услуги на вашу почту: <span id="form__popup-email"></span></p>
             </div>
         </div>
     </section>
@@ -398,5 +407,8 @@
 <script src="src/header/mover_index.js"></script>
 <script src="src/move/mover.js"></script>
 <script src="src/home/mover.js"></script>
+
+<script src="src/form/form__popup.js"></script>
+
 </body>
 </html>

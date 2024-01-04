@@ -60,6 +60,7 @@
     <link rel="stylesheet" href="src/form/form__button.css">
     <link rel="stylesheet" href="src/form/form__consult.css">
     <link rel="stylesheet" href="src/form/form__form.css">
+    <link rel="stylesheet" href="src/form/form__popup.css">
 
     <link rel="stylesheet" href="src/footer/footer.css">
     <link rel="stylesheet" href="src/footer/footer__politics.css">
@@ -125,7 +126,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12  col-xs-12 text-center">
-                        <p class="header__text">О компании</p>
+                        <p class="header__text">Недвижимость и переезд</p>
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
@@ -189,18 +190,25 @@
             <div class="row">
                 <div class="col-md-4 col-sm-3 hidden-xs"></div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <form action="">
-                        <input type="text" class="form__input" required placeholder="Имя">
-                        <input type="mail" class="form__input" required placeholder="E-mail">
-                        <input type="tel" class="form__input" required placeholder="Телефон">
+                    <form id="contact-form">
+                        <input type="text" class="form__input" required placeholder="Имя" id="name">
+                        <input type="email" class="form__input" required placeholder="E-mail" id="email">
+                        <input type="tel" class="form__input" required placeholder="Телефон" id="phone">
                         <input type="submit" class="form__button" value="Заказать консультацию">
                     </form>
                 </div>
                 <div class="col-md-4 col-sm-3 hidden-xs"></div>
             </div>
+            <div id="form__popup-overlay"></div>
+            <div id="form__popup">
+                <button id="form__popup-close">X</button>
+                <p>Спасибо за проявленное внимание, <span id="form__popup-name"></span>.</p>
+                <p>Наш менеджер позвонит вам по номеру телефона: <span id="form__popup-phone"></span> в течение часа.</p>
+                <p>Также мы выслали купон на наши услуги на вашу почту: <span id="form__popup-email"></span></p>
+            </div>
         </div>
     </section>
-</main>>
+</main>
 <footer>
     <div class="container">
         <div class="row">
@@ -225,5 +233,7 @@
 <script src="src/menu/menu.js"></script>
 <!--Прокрутки-->
 <script src="src/header/mover_move.js"></script>
+
+<script src="src/form/form__popup.js"></script>
 </body>
 </html>
