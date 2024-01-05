@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var successCount = 0
 
     feedback_items.forEach(function(feedback_item) {
-        fetch("https://jsonplaceholder.typicode.com/comments/" + getRandomInt(500))
+        fetch("https://jsonplaceholder.typicode.com/comments/" + getRandomInt(499) + 1)
             .then(function (response) {
                 if (!response.ok) {
                     throw Error(response.statusText);
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     feedback_items.forEach(function(feedback_item) {
-        fetch("https://jsonplaceholder.typicode.com/users/" + getRandomInt(10))
+        fetch("https://jsonplaceholder.typicode.com/users/" + getRandomInt(9) + 1)
             .then(function (response) {
                 if (!response.ok) {
                     throw Error(response.statusText);
