@@ -82,6 +82,7 @@
     <link rel="stylesheet" href="src/feedbacks/feedbacks__locations.css">
     <link rel="stylesheet" href="src/feedbacks/feedbacks__name.css">
     <link rel="stylesheet" href="src/feedbacks/feedbacks__text.css">
+    <link rel="stylesheet" href="src/feedbacks/feedbacks__mockdata.css">
     <link rel="stylesheet" href="src/feedbacks/round.css">
     <link rel="stylesheet" href="src/feedbacks/round__item.css">
 
@@ -306,12 +307,13 @@
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div id="feedbacks__preloader"></div>
                     <div class="slider">
                         <div class="feedbacks__item clearfix">
                             <p class="feedbacks__name">Дмитрий апасов</p>
                             <a href="#" class="feedbacks__a">vk.com/apasov</a>
                             <p class="feedbacks__locations clearfix">Москва → София</p>
-                            <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                            <p class="feedbacks__text" id="feedbacks__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
                             <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
                         </div>
                         <div class="feedbacks__item clearfix">
@@ -329,6 +331,7 @@
                             <img src="img/client.png" alt="Дмитрий апасов" class="feedbacks__client">
                         </div>
                     </div>
+                    <div id="feedbacks__error-message"></div>
                 </div>
             </div>
         </div>
@@ -409,6 +412,7 @@
 <script src="src/home/mover.js"></script>
 
 <script src="src/form/form__popup.js"></script>
+<script src="src/feedbacks/feedback__mockdata.js"></script>
 
 </body>
 </html>
